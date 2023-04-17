@@ -1,21 +1,11 @@
-import React, { useEffect, useState } from "react";
+//  1. import useEffect
+// import { useEffect } from 'react';
 
-const DataComponent = () => {
-  const [data, setData] = useState([]);
+// function MyComponent() {
+//   2. call it above the returned JSX  
+//   3. pass two arguments to it: a function and an array
+//   useEffect(() => {}, []);
+//   return ...
+// }
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch("https://api.example.com/data");
-      const jsonData = await response.json();
-      setData(jsonData);
-    };
 
-    fetchData();
-  }, []);
-
-  return (
-    // Render component with fetched data
-  );
-};
-
-export default DataComponent;
