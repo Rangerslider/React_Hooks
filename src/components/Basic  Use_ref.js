@@ -1,3 +1,21 @@
+//useRef returns a mutable reference object with a single property field called current which is set to the passed argument’s value. The returned object will be retained .
+//syntex:
+// Creating a reference an providing an initial value
+// const reference = useRef(initialValue);
+
+// const handler = () => {
+//   // Accessing the reference value
+//   const referenceValue = reference.current;
+
+//   // Updating reference value
+//   reference.current = reference.current + 1;
+// };
+
+
+//details:https://dmitripavlutin.com/react-useref/
+
+
+
 import React, { useRef } from 'react';
 
 function App() {
