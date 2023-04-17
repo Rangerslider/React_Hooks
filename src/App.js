@@ -1,7 +1,7 @@
 
 
 import "./assets/Style/App.css";
-import CustomHookExample from "./component/UseMemo";
+import CustomHookExample from "./components/UseCallback_UseMemo";
 
 function App() {
   
