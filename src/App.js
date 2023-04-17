@@ -1,12 +1,12 @@
 import "./assets/Style/App.css";
-import AdvanceUSeState from "./component/AdvancedUseState";
-// import BasicUseState from "./component/BasicOfUseState";
+// import BasicUseEffect from "./component/BasicOfUseEffect";
+import AdvanceUseEffect from "./component/AdvancedUseEffect";
 
 function App() {
   
   return (
-    // <BasicUseState/> 
-    <AdvanceUSeState/>
+    // <BasicUseEffect/> 
+    <AdvanceUseEffect/>
   );
 }
 
