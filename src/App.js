@@ -1,12 +1,14 @@
+
+
 import "./assets/Style/App.css";
-// import BasicUseEffect from "./component/BasicOfUseEffect";
-import AdvanceUseEffect from "./component/AdvancedUseEffect";
+import CustomHookExample from "./component/UseCallback_UseMemo";
 
 function App() {
   
   return (
-    // <BasicUseEffect/> 
-    <AdvanceUseEffect/>
+    <>
+      <CustomHookExample/>
+    </>
   );
 }
 
