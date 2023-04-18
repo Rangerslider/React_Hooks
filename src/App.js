@@ -1,7 +1,7 @@
 
 
 import "./assets/Style/App.css";
-import CustomHookExample from "./components/UseToggleHook";
+import CustomHookExample from "./components/UseDebounceHook.js";
 
 function App() {
   
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;  
+export default App;
