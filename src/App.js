@@ -1,12 +1,15 @@
 import "./assets/Style/App.css";
-// import BasicUseEffect from "./component/BasicOfUseEffect";
-import AdvanceUseEffect from "./component/AdvancedUseEffect";
+// import BasicUseEffect from "./components/BasicUseEffect";
+// import AdvanceUseEffect from "./components/AdvancedUseEffect";
+import CounterBrowser from "./components/CountBrowser";
+
 
 function App() {
   
   return (
     // <BasicUseEffect/> 
-    <AdvanceUseEffect/>
+    // <AdvanceUseEffect/>
+    <CounterBrowser/>
   );
 }
 
