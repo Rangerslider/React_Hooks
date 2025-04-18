@@ -1,7 +1,8 @@
 import "./assets/Style/App.css";
 // import BasicUseEffect from "./components/BasicUseEffect";
 // import AdvanceUseEffect from "./components/AdvancedUseEffect";
-import CounterBrowser from "./components/CountBrowser";
+// import CounterBrowser from "./components/CountBrowser";
+import UseEffectRevise from "./components/UseEffectRevise";
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     // <BasicUseEffect/> 
     // <AdvanceUseEffect/>
-    <CounterBrowser/>
+    // <CounterBrowser/>
+    <UseEffectRevise/>
   );
 }
 
